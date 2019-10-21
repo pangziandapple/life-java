@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="life-eureka" />
         <module name="life-weather" />
+        <module name="life-weather-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
