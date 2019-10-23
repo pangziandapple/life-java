@@ -3,7 +3,7 @@ package apple.pangzi.weather.api.service;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient("test")
+@FeignClient("life-weather")
 public interface TestService {
 
     @GetMapping("/test")
