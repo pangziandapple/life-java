@@ -11,6 +11,8 @@ spring:
         uri: lb://life-weather
         predicates:
         - Path=/weather/**
+        filters:
+        - StripPrefix=1
 
 eureka:
   client:
