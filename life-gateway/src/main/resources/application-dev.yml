@@ -1,0 +1,19 @@
+server:
+  port: 20200
+
+spring:
+  application:
+    name: life-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: life-weather
+        uri: lb://life-weather
+        predicates:
+        - Path=/weather/**
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.17.148.19:20000//eureka/
+
