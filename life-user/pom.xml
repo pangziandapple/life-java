@@ -6,16 +6,11 @@
         <artifactId>parent</artifactId>
         <groupId>life</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../life-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>life-weather-api</artifactId>
+    <artifactId>life-user</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
