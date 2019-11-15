@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: life-weather
+    name: life-user
 
 eureka:
   client:
