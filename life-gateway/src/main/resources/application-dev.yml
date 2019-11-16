@@ -14,7 +14,7 @@ spring:
         filters:
         - StripPrefix=1
       - id: life-user
-        uri：lb://life-user
+        uri: lb://life-user
         predicates:
         - Path=/user/**
         filters:
