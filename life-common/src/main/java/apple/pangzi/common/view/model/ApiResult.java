@@ -12,6 +12,13 @@ public class ApiResult {
         return apiResult;
     }
 
+    public static ApiResult error(String message) {
+        ApiResult apiResult = new ApiResult();
+        apiResult.setCode(-1);
+        apiResult.setMessage(message);
+        return apiResult;
+    }
+
     public Integer getCode() {
         return code;
     }
