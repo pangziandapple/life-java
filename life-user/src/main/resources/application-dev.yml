@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: life-user
+  datasource:
+    username: root
+    password: PANGzi!@#
+    url: jdbc:mysql://mysql:3306/life
+    driver-class-name: com.mysql.jdbc.Driver
 
 eureka:
   client:
