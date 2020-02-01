@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
         }
 
         User resultUser = userMapper.getByMobile(user.getMobile());
-        if(resultUser == null || resultUser.getPassword().equals(user.getPassword())){
+        if(resultUser == null || !resultUser.getPassword().equals(user.getPassword())){
             return ApiResult.error("用户名密码不正确！");
         }
         return ApiResult.success();

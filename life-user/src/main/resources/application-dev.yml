@@ -6,8 +6,8 @@ spring:
     name: life-user
   datasource:
     username: root
-    password: PANGzi!@#
-    url: jdbc:mysql://mysql:3306/life
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/life?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
 mybatis:
   mapper-locations:
